@@ -59,7 +59,21 @@ IDS706_MiniProj12_YangXu (Root Directory)
 └── .gitignore
 ```
 
-Testing
+### sample output
+
+```bash
+2023/11/16 20:30:37 INFO mlflow.tracking.fluent: Experiment with name 'MLflow Quickstart' does not exist. Creating a new experiment.
+Successfully registered model 'tracking-quickstart'.
+2023/11/16 20:30:45 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: tracking-quickstart, version 1
+Created version '1' of model 'tracking-quickstart'.
+   sepal length (cm)  sepal width (cm)  petal length (cm)  petal width (cm)  actual_class  predicted_class
+0                6.1               2.8                4.7               1.2             1                1
+1                5.7               3.8                1.7               0.3             0                0
+2                7.7               2.6                6.9               2.3             2                2
+3                6.0               2.9                4.5               1.5             1                1
+```
+
+### Testing
 To run tests, execute the test_main.py script using the following command:
 ```shell
 python test_main.py
