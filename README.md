@@ -1,5 +1,7 @@
 # IDS706_MiniProj12_YangXu: MLflow Project Management
 
+[![Python CI](https://github.com/nogibjj/IDS706_MiniProj12_YangXu/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/IDS706_MiniProj12_YangXu/actions/workflows/cicd.yml)
+
 ## Project Overview
 This project showcases the creation of a simple machine learning model and the utilization of MLflow to manage the project, including tracking metrics.
 
